@@ -1,0 +1,146 @@
+nav {
+  background-color: black;
+  padding: 10px 33.3%;
+  border-radius: 10px;
+}
+
+ul {
+  width: 700px;
+}
+
+nav li {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  padding: 5px 30px;
+  margin: 0 10px;
+  border: 0.5px solid;
+  border-color: aliceblue;
+  border-radius: 20px;
+  transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+}
+
+nav a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+nav li:hover {
+  background-color: #2e6aec;
+  color: black;
+  border: none;
+  box-shadow: 0 0.5em 0.5em -0.4em #f0ebe7;
+  transform: translateY(-0.2em);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #edede9;
+}
+
+p {
+  margin: 0 20%;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+  padding-bottom: 100px;
+}
+
+h1 {
+  text-align: center;
+  color: #343a40;
+  font-size: 35px;
+  text-shadow: 10px 10px 15px rgb(151, 150, 150);
+}
+
+img {
+  padding-top: 100px;
+}
+
+iframe {
+  margin: 0 35%;
+  border-radius: 30px;
+}
+
+#about {
+  padding-top: 50px;
+}
+
+table {
+  font-family: "Roboto", sans-serif;
+  table-layout: auto;
+  width: 500px;
+  border: none;
+  margin-left: 70%;
+  color: azure;
+}
+
+td {
+  border: none;
+}
+
+th {
+  padding-bottom: 20px;
+  font-size: 20px;
+  border: none;
+  text-align: left;
+}
+#absolute {
+  position: relative;
+  top: 40px;
+}
+
+button {
+  position: relative;
+  left: 95%;
+  top: -90px;
+  width: 50px;
+  height: 50px;
+  font-weight: 400;
+  background-color: rgb(194, 194, 194);
+  border: none;
+  border-radius: 50%;
+}
+
+button a {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+button:hover {
+  background-color: #2e6aec;
+}
+
+footer {
+  background-color: black;
+  margin-top: 100px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: 5px;
+  color: azure;
+  margin-bottom: 500px;
+  position: relative;
+}
+
+footer ul li a:hover {
+  color: #2e6aec;
+  font-weight: 600;
+}
+
+li {
+  list-style-type: none;
+}
+
+footer ul {
+  position: relative;
+  top: -155px;
+}
